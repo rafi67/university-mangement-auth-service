@@ -4,7 +4,9 @@
     "outDir": "./dist",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "esModuleInterop": true,
+    "esModuleInterop": true
     // ... rest of your settings
-  }
+  },
+  "include": ["src"], // which files to compile
+  "exclude": ["node_modules"] // which files to skip
 }
