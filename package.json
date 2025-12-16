@@ -1,0 +1,20 @@
+{
+  "name": "university-management-auth-service",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Rafi",
+  "type": "commonjs",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  }
+}
