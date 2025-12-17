@@ -13,7 +13,8 @@
     "lint-prettier": "npm run  lint:check && npm run prettier:check",
     "lint:fix": "eslint --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "src/**/*.ts": "npm run lint-prettier"
