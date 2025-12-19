@@ -1,16 +1,26 @@
-import express, { Application, Request, Response } from "express";
-import cors from "cors";
+import express, { Application, Request, Response } from 'express'
+import cors from 'cors'
+import router from './app/modules/users/users.route'
 
-const app: Application = express();
+const app: Application = express()
 
-app.use(cors());
+app.use(cors())
 
 // parser
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
-app.get("/", (req: Request, res: Response) => {
-  res.send("Hello World!");
-});
+// Application  route
+app.use('/api/v1/users/', router)
 
-export default app;
+// testing
+app.get('/', async (req: Request, res: Response) => {
+  // await usersService.createUser({
+  //   id: '999',
+  //   password: '1234',
+  //   role: 'student',
+  // })
+  res.send('Hello World!')
+})
+
+export default app
