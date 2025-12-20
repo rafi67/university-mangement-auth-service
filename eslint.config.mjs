@@ -4,8 +4,7 @@ import tseslint from 'typescript-eslint'
 import jsdoc from 'eslint-plugin-jsdoc'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 
-export default [
-  {
+export default [{
     files: ['**/*.{js,mjs,cjs,ts}'],
   },
   eslintPluginPrettierRecommended,
@@ -38,6 +37,11 @@ export default [
     rules: {
       eqeqeq: 'off',
       'no-unused-vars': 'error',
+      'no-console': 'error',
+      'no-undef': 'error',
+      'no-unused-expressions': "error",
+      'no-unreachable': 'error',
+      
       'prefer-const': [
         'error',
         {
