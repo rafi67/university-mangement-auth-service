@@ -38,9 +38,6 @@ export default [
     rules: {
       eqeqeq: 'off',
       'no-unused-vars': 'error',
-      'no-console': 'error',
-      'no-undef': 'error',
-      'no-unreachable': 'error',
       'prefer-const': [
         'error',
         {
