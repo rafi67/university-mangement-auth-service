@@ -1,0 +1,8 @@
+{"level":"error","message":"failed to connect database The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"info","message":"Database is connected successfully"}
+{"level":"info","message":"Example app listening on port 5000"}
+{"level":"info","message":"Database is connected successfully"}
+{"level":"info","message":"Example app listening on port 5000"}
+{"level":"info","message":"Database is connected successfully"}
+{"level":"info","message":"Example app listening on port 5000"}
+{"level":"error","message":"failed to connect database The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
