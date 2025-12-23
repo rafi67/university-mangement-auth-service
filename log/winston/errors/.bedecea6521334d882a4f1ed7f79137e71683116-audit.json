@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\.bedecea6521334d882a4f1ed7f79137e71683116-audit.json",
+    "files": [
+        {
+            "date": 1766480610152,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2025-12-23-15-error.log",
+            "hash": "94c2c015ef7233a64bed776352b373281be095d29e5032877fd2a5a6af551205"
+        }
+    ],
+    "hashType": "sha256"
+}

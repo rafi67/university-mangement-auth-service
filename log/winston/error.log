@@ -1,1 +1,0 @@
-2025-12-22T13:05:23.815Z [logger!] error: failed to connect database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
