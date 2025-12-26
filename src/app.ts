@@ -1,7 +1,8 @@
 import express, { Application } from 'express'
 import cors from 'cors'
-import router from './app/modules/users/users.route'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
+import { UserRoutes } from './app/modules/users/user.route'
+import ApiError from './errors/ApiError'
 
 const app: Application = express()
 
@@ -12,19 +13,13 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Application  route
-app.use('/api/v1/users/', router)
+app.use('/api/v1/users/', UserRoutes)
 
 // testing
-// app.get('/', async (req: Request, res: Response) => {
-//   await usersService.createUser({
-//     id: '999',
-//     password: '1234',
-//     role: 'student',
-//   })
-//   res.send('Hello World!')
-//   throw new ApiError(400, 'internal error')
-//   next('internal server error')
-// })
+app.get('/', async () => {
+  throw new ApiError(400, 'internal error')
+  //   next('internal server error')
+})
 
 // global error handler
 app.use(globalErrorHandler)
