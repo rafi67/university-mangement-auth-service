@@ -2,18 +2,34 @@ import mongoose from 'mongoose'
 import app from './app'
 import config from './config/index'
 import { logger, errorLogger } from './shared/logger'
+import { Server } from 'http'
 
 async function main() {
+  let server: Server
   try {
     await mongoose.connect(config.database_url as string)
     logger.info(`Database is connected successfully`)
-    app.listen(config.port, () => {
+    server = app.listen(config.port, () => {
       logger.info(`Example app listening on port ${config.port}`)
     })
   } catch (err) {
     errorLogger.error(`failed to connect database ${err.message}`)
   }
-  // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
+
+  process.on('unhandledRejection', error => {
+    // eslint-disable-next-line no-console
+    console.log(
+      'Unhandled Rejection is detected, we are closing our server.....',
+    )
+    if (server) {
+      server.close(() => {
+        errorLogger.error('Failed to connect database', error)
+        process.exit(1)
+      })
+    } else {
+      process.exit(1)
+    }
+  })
 }
 
 main()
