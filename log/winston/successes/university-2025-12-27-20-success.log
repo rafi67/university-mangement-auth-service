@@ -700,3 +700,15 @@
   label: 'logger!',
   timestamp: '2025-12-27T14:34:56.693Z'
 }
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-27T14:34:59.295Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-27T14:34:59.303Z'
+}

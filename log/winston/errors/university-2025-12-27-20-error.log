@@ -1,0 +1,17 @@
+{
+  level: 'error',
+  message: 'Failed to connect database Unhandled Promise Rejection',
+  stack: 'Error: Unhandled Promise Rejection\n' +
+    '    at C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\src\\app.ts:19:18\n' +
+    '    at step (C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\src\\app.ts:33:23)\n' +
+    '    at Object.next (C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\src\\app.ts:14:53)\n' +
+    '    at C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\src\\app.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\src\\app.ts:4:12)\n' +
+    '    at C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\src\\app.ts:18:14\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at next (C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\node_modules\\router\\lib\\route.js:157:13)\n' +
+    '    at Route.dispatch (C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\node_modules\\router\\lib\\route.js:117:3)',
+  label: 'logger!',
+  timestamp: '2025-12-27T14:41:36.835Z'
+}
