@@ -8,12 +8,14 @@ export const academicSemesterTitles: IAcademicSemesterTitles[] = [
   'Autumn',
   'Summer',
   'Fall',
+  'Winter',
 ]
 
 export const academicSemesterCodes: IAcademicSemesterCodes[] = [
   '01',
   '02',
   '03',
+  '04',
 ]
 
 export const academicSemesterMonths: IAcademicSemesterMonths[] = [
