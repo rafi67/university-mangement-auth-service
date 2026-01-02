@@ -9,7 +9,7 @@ import {
   academicSemesterTitles,
 } from './academicSemester.constant'
 import ApiError from '../../../errors/ApiError'
-import status from 'http-status'
+import httpStatus from 'http-status'
 import { NextFunction } from 'express'
 
 const academicSemesterSchema = new Schema<IAcademicSemester>(
@@ -50,7 +50,10 @@ academicSemesterSchema.pre('save', async function (next: NextFunction) {
     year: this.year,
   })
   if (isExists) {
-    throw new ApiError(status.CONFLICT, 'Academic semester is already exists!')
+    throw new ApiError(
+      httpStatus.CONFLICT,
+      'Academic semester is already exists!',
+    )
   }
   next()
 })
