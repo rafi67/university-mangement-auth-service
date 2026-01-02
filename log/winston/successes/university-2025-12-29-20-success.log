@@ -1,0 +1,48 @@
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:06:52.667Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:06:52.675Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:06:59.269Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:06:59.275Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:27:21.379Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:27:21.394Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:27:25.859Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'logger!',
+  timestamp: '2025-12-29T14:27:25.866Z'
+}
