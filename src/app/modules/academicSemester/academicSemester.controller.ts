@@ -23,21 +23,6 @@ const createAcademicSemester = catchAsync(
   },
 )
 
-const createAcademicFaculty = catchAsync(
-  async (req: Request, res: Response) => {
-    const { ...academicFacultyData } = req.body
-    const result =
-      await AcademicSemesterService.createFaculty(academicFacultyData)
-
-    sendResponse(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'Academic Faculty created successfully',
-      data: result,
-    })
-  },
-)
-
 const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, academicSemesterFilterableFields)
   const paginationOptions = pick(req.query, paginationFields)
@@ -97,7 +82,6 @@ const deleteSemester = catchAsync(async (req: Request, res: Response) => {
 
 export const AcademicSemesterController = {
   createAcademicSemester,
-  createAcademicFaculty,
   getAllSemesters,
   getSingleSemester,
   updateSemester,
