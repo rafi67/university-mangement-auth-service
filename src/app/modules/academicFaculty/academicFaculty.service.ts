@@ -49,8 +49,14 @@ const updateFaculty = async (
   return result
 }
 
+const deleteFaculty = async (id: string): Promise<IAcademicFaculty> => {
+  const result = await AcademicFaculty.findByIdAndDelete({ _id: id })
+  return result
+}
+
 export const AcademicFacultyService = {
   createFaculty,
   getAllFaculty,
   updateFaculty,
+  deleteFaculty,
 }
