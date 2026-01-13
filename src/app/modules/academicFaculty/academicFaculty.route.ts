@@ -13,4 +13,10 @@ router.post(
   AcademicFacultyController.createAcademicFaculty,
 )
 
+router.patch(
+  '/update-faculty/:id',
+  validateRequest(AcademicFacultyValidation.updateAcademicFacultyZodSchema),
+  AcademicFacultyController.updateFaculty,
+)
+
 export const AcademicFacultyRoutes = router
