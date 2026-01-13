@@ -13,6 +13,8 @@ import {
 } from './academicSemester.interface'
 import { AcademicSemester } from './academicSemester.model'
 import httpStatus from 'http-status'
+import { IAcademicFaculty } from '../academicFaculty/academicFaculty.interface'
+import { AcademicFaculty } from '../academicFaculty/academicFaculty.model'
 
 const createSemester = async (
   payload: IAcademicSemester,
@@ -21,6 +23,13 @@ const createSemester = async (
     throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid Semester Code!')
   }
   const result = await AcademicSemester.create(payload)
+  return result
+}
+
+const createFaculty = async (
+  payload: IAcademicFaculty,
+): Promise<IAcademicFaculty> => {
+  const result = await AcademicFaculty.create(payload)
   return result
 }
 
@@ -104,9 +113,18 @@ const updateSemester = async (
   return result
 }
 
+const deleteSemester = async (
+  id: string,
+): Promise<IAcademicSemester | null> => {
+  const result = await AcademicSemester.findByIdAndDelete(id)
+  return result
+}
+
 export const AcademicSemesterService = {
   createSemester,
   getAllSemesters,
   getSingleSemester,
   updateSemester,
+  deleteSemester,
+  createFaculty,
 }
