@@ -3,8 +3,6 @@ import {
   IAcademicDepartment,
   AcademicDepartmentModel,
 } from './academicDepartment.interface'
-// import httpStatus from 'http-status'
-// import ApiError from '../../../errors/ApiError'
 
 const academicDepartmentSchema = new Schema<IAcademicDepartment>(
   {
@@ -26,20 +24,6 @@ const academicDepartmentSchema = new Schema<IAcademicDepartment>(
     },
   },
 )
-
-// academicDepartmentSchema.pre('save', async function () {
-//   const isExists = await AcademicDepartment.findOne({
-//     title: this.title,
-//     academicFaculty: this.academicFaculty,
-//   })
-
-//   if (isExists) {
-//     throw new ApiError(
-//       httpStatus.CONFLICT,
-//       'Academic Department already exists',
-//     )
-//   }
-// })
 
 export const AcademicDepartment = model<
   IAcademicDepartment,
