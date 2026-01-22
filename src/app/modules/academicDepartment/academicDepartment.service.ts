@@ -12,7 +12,9 @@ import { AcademicDepartment } from './academicDepartment.model'
 const createDepartment = async (
   payload: IAcademicDepartment,
 ): Promise<IAcademicDepartment> => {
-  const result = await AcademicDepartment.create(payload)
+  const result = (await AcademicDepartment.create(payload)).populate(
+    'academicFaculty',
+  )
   return result
 }
 
@@ -56,6 +58,7 @@ const getAllDepartment = async (
     andConditions.length > 0 ? { $and: andConditions } : {}
 
   const result = await AcademicDepartment.find(whereConditions)
+    .populate('academicFaculty')
     .sort(sortConditions)
     .skip(skip)
     .limit(limit)
@@ -75,7 +78,8 @@ const getAllDepartment = async (
 const getSingleDepartment = async (
   id: string,
 ): Promise<IAcademicDepartment | null> => {
-  const result = await AcademicDepartment.findById(id)
+  const result =
+    await AcademicDepartment.findById(id).populate('academicFaculty')
   return result
 }
 
@@ -87,7 +91,7 @@ const updateDepartment = async (
     { _id: id },
     payload,
     { new: true },
-  )
+  ).populate('academicFaculty')
   return result
 }
 

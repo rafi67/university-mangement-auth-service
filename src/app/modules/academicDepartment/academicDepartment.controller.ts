@@ -44,7 +44,7 @@ const getAllDepartment = catchAsync(async (req: Request, res: Response) => {
 
 const getSingleAcademicDepartment = catchAsync(
   async (req: Request, res: Response) => {
-    const id = req.params._id
+    const id = req.params.id
     const result = await AcademicDepartmentService.getSingleDepartment(id)
 
     sendResponse(res, {

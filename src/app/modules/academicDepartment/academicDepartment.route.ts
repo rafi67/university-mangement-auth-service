@@ -13,6 +13,8 @@ router.post(
   AcademicDepartmentController.createAcademicDepartment,
 )
 
+router.get('/getAllDepartment', AcademicDepartmentController.getAllDepartment)
+
 router.get(
   '/getDepartment/:id',
   AcademicDepartmentController.getSingleAcademicDepartment,
