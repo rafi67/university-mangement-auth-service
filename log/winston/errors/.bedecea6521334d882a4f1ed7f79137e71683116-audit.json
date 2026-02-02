@@ -179,6 +179,21 @@
             "date": 1769954419523,
             "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-01-20-error.log",
             "hash": "1d0982aacdceeced65416c8db7da64646bfade7d3a20d22b5241df866997926f"
+        },
+        {
+            "date": 1770019038027,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-02-13-error.log",
+            "hash": "a23018e53a722e5b1f2e34f54042dfd97eddbd6caab7c48301458f921c844143"
+        },
+        {
+            "date": 1770021678548,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-02-14-error.log",
+            "hash": "d4db37171c02a90046f4e10f7dc8cd5c9ad1e887b4edf44a89c866b0f3d9bc0e"
+        },
+        {
+            "date": 1770023100520,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-02-15-error.log",
+            "hash": "67cfa3b60690f8a1bc208d93575c6cda61c623cb810b6e9044e185d5bf792f32"
         }
     ],
     "hashType": "sha256"

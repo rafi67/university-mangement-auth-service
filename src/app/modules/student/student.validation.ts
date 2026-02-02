@@ -17,7 +17,7 @@ const updateStudentZodSchema = z.object({
 
     bloodGroup: z.enum([...bloodGroup] as [string, ...string[]]).optional(),
 
-    email: z.string().email().optional(),
+    email: z.email().optional(),
 
     contactNo: z.string().optional(),
     emergencyContactNo: z.string().optional(),
