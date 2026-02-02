@@ -1,2 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type
-export type IFaculty = {}
+export type IFaculty = {
+  id: string
+}
