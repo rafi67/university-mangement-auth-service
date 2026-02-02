@@ -6,204 +6,194 @@
     "auditLog": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\.bedecea6521334d882a4f1ed7f79137e71683116-audit.json",
     "files": [
         {
-            "date": 1767333619649,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-02-12-error.log",
-            "hash": "4e7f67aedbbc078331bfb89e01de85c3c7107d375eb7db62b12b046d21c92a6c"
+            "date": 1768835572039,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-19-21-error.log",
+            "hash": "e2cd5decb7456e43278577a55c5b87077386e98479c1029dd6a8ccd7369338f2"
         },
         {
-            "date": 1767342411375,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-02-14-error.log",
-            "hash": "0eeafffbcfac4583fd7540921629c29f487dccf5093f1ad948deb3b68581567c"
+            "date": 1768907615808,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-20-17-error.log",
+            "hash": "48c1bd451a67e7df4852820a5333ac7080fa6f3ac7cfe2e9a573d1b96ef05761"
         },
         {
-            "date": 1767358634883,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-02-18-error.log",
-            "hash": "61d957fe8c12a42c2f54b4c89076f32bf22ef4ac2918249865f0506b986cd44f"
+            "date": 1769085046806,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-22-18-error.log",
+            "hash": "b0db4f62c779e79e40eae57be0e7a87f18a4e8ad72bfdcc0b4d30a5d1dfc2409"
         },
         {
-            "date": 1767359600291,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-02-19-error.log",
-            "hash": "d873a7200b31171b5b9ca9053422bb5c5bc1caa3a2ec43d186dfbab6fd255424"
+            "date": 1769089956050,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-22-19-error.log",
+            "hash": "1f318d0326a9dcaefdd92cd47ab461a389a552ce86a20d4a373ee32a9626086f"
         },
         {
-            "date": 1767417036479,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-03-11-error.log",
-            "hash": "a6fdbf142b088580ae47e9c87fa7e10c5ae3ae84648eaf29c4ac69bb2b5e6ca6"
+            "date": 1769091095202,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-22-20-error.log",
+            "hash": "a5e956d6edfa33dded8531bbf464fc4dffcf203c2872d0675290d8951c380095"
         },
         {
-            "date": 1767426041211,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-03-13-error.log",
-            "hash": "354b8a2d29c4a6c85120be0d3d5239adde76678588720b4d7b4eb8cda20f6a10"
+            "date": 1769096586906,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-22-21-error.log",
+            "hash": "14b4f3e4b67400c993e4dcc0ef49f2fa0ceefd95d3c62f8bd0f3795efbec71fa"
         },
         {
-            "date": 1767429252034,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-03-14-error.log",
-            "hash": "a6c973e602a6dbc3dc296995de5e45b347d30009d3cc610a94c867e0c8698fff"
+            "date": 1769168197096,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-23-17-error.log",
+            "hash": "f77d952fdde3fb4d30fd6e50c5aa7c040b4d8cdeb7d9d610726e40804aca92e2"
         },
         {
-            "date": 1767434592704,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-03-16-error.log",
-            "hash": "d8e0483d7dc1ad2c3b4af19893bc4f85fbef3a386cb420c5853848d8df4b08f4"
+            "date": 1769175371125,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-23-19-error.log",
+            "hash": "7711508329e35e8a0dac635eca91bd8701741f4ac3fc2a52a1c2ea6fa97410ed"
         },
         {
-            "date": 1767439134335,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-03-17-error.log",
-            "hash": "8b503176c00f81ba2fb295b5d12fe0beff807c53e40ad3bad60cae5ad35cd92e"
+            "date": 1769178841086,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-23-20-error.log",
+            "hash": "aabef3f49bb0e303034c096609db106c5ec07e254441d7c55450cf0657fd641f"
         },
         {
-            "date": 1767441630713,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-03-18-error.log",
-            "hash": "b4e5cae58aa3b551858f62a83140c0005d3a07954a01f9e729db4bd358bdb65f"
+            "date": 1769243209342,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-24-14-error.log",
+            "hash": "e3b7145e31716f42481a3fd06b2bd9338974abe21133e42f928c05823a3ba323"
         },
         {
-            "date": 1767449068284,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-03-20-error.log",
-            "hash": "2ae4c4b7fb08c618462160c672738c5050767c133ccc4e6a7aad32073c7d1f02"
+            "date": 1769248255259,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-24-15-error.log",
+            "hash": "af9adb80aa43e7e10809e8913aecd92b0cae209871976e266764c18dd23a173c"
         },
         {
-            "date": 1767536657262,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-04-20-error.log",
-            "hash": "a731361150cdb628f8021b870f994569e0c4073f8c93dfa7276804c3f38f8ba9"
+            "date": 1769250976524,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-24-16-error.log",
+            "hash": "fb27304efe7814c779481584c21544b86f91f6a5c29940e604a83645af1d58cb"
         },
         {
-            "date": 1767594189645,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-05-12-error.log",
-            "hash": "67b7b1eacaeaee67dc36a4272389074083b838e4422b0e42741cd99ef79b1271"
+            "date": 1769261973061,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-24-19-error.log",
+            "hash": "f064395c6e4273f9497c520b78de947cd8dd740c2c9760a6a3a1317269bafc08"
         },
         {
-            "date": 1767597026039,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-05-13-error.log",
-            "hash": "07e0bb316655e8d6c91cb16f6b0590202f98a5eaee601c58a5b9f3c6d381347b"
+            "date": 1769263382038,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-24-20-error.log",
+            "hash": "1c0e0808198a9ff15b1664fe70b8be29178a2c1fd613dce819618abeecd0dce0"
         },
         {
-            "date": 1767618459551,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-05-19-error.log",
-            "hash": "e6ece766527ad049df783b56ca84428506e8c3c64e68c00f61ef4112641c5721"
+            "date": 1769270654680,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-24-22-error.log",
+            "hash": "7d9a6c70858f170732ec98daaeeda43feab194fcb2baf0c418b1c4aed97611b4"
         },
         {
-            "date": 1767621862497,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-05-20-error.log",
-            "hash": "0d62b439de4af1aba325348f23a79d45a8e513108640ff19ec0d1a582394d343"
+            "date": 1769412905851,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-26-13-error.log",
+            "hash": "3f04c8a274250056331ef1daa2dec439fcb33ad19cd90d985b2a9fed80769f24"
         },
         {
-            "date": 1767698456954,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-06-17-error.log",
-            "hash": "7bbdf7dbf55b0be889a689bd9c05bdf67c2f725fc496292b451d20677bb2aeef"
+            "date": 1769420862698,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-26-15-error.log",
+            "hash": "a1197f4374289de4eeb6fb72ac5a1674d9b5083edfa6f2e74ac356d1b11863be"
         },
         {
-            "date": 1767777521321,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-07-15-error.log",
-            "hash": "b8138f039a266091b1c4979a74fb4eea4f2b0add8f58fcaedbd3e5d281e1cd04"
+            "date": 1769421663413,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-26-16-error.log",
+            "hash": "2e91e95620f49cb9952a8ea4f71b14d7e337c1c068bf2763d40a768b53380b09"
         },
         {
-            "date": 1767789836190,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-07-18-error.log",
-            "hash": "b83dcc73841bada4492df50a525ae40f3a5b110fa53e2ab1f8c9149d7bf0b880"
+            "date": 1769427426898,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-26-17-error.log",
+            "hash": "90ec38c86a57f2957dd959bd688a9abeb9445913f7db2daa8e1a69cf3dd7a5b9"
         },
         {
-            "date": 1767790940058,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-07-19-error.log",
-            "hash": "c0fabcc3817971cc39e9ed356b0fcf6446883e1e0ab61e5c48528ec60825ed68"
+            "date": 1769433013556,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-26-19-error.log",
+            "hash": "d1327bb1d06fa3e7271c1778ab3bcb3805c30cfdfdd359f2dfb44e8ba85f4ae4"
         },
         {
-            "date": 1767799648225,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-07-21-error.log",
-            "hash": "6a4256d8a394e67e701538ca83815e8174be66806965de11a266fcdb314918c4"
+            "date": 1769436144689,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-26-20-error.log",
+            "hash": "3f1045d8a7f9665704c5b748b819f8911f98832471d70808945910a3ed65f4fa"
         },
         {
-            "date": 1767963058582,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-09-18-error.log",
-            "hash": "577e7688d2ceb3ac1c0956a15f38aba97cb66954e5f924a97fb8c3cd8726967f"
+            "date": 1769490340257,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-27-11-error.log",
+            "hash": "9fbd722d8a54ebfd8a24463fea49a79e6652d7d08087ce1998e91a37669d834f"
         },
         {
-            "date": 1767968029421,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-09-20-error.log",
-            "hash": "683ec28415335d4c35e182c66c405aacc608db91806b939be90127ef1e258fcd"
+            "date": 1769504253484,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-27-14-error.log",
+            "hash": "9de1e67000baa23eba3abc50c790efe40c392430f406afea5bf33e2536f92cca"
         },
         {
-            "date": 1767972546825,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-09-21-error.log",
-            "hash": "ec3e9a19065c82d25bca98743929f2d94560054541af986041b7b71b79ed438d"
+            "date": 1769504437187,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-27-15-error.log",
+            "hash": "d79549cbd6b29202adf7d4d7d88dcb3eba41b49ec656ffeb2cd2bbed7c29a985"
         },
         {
-            "date": 1768041738228,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-10-16-error.log",
-            "hash": "f0f5f1e18c0f1f2e392189f2a739caa3ec68947c63e043bbf819e275293b7e2f"
+            "date": 1769511384435,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-27-16-error.log",
+            "hash": "487108ed6d52d00759e29a2e870aafcfe493694ede1e2377ce70d370351536aa"
         },
         {
-            "date": 1768042804463,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-10-17-error.log",
-            "hash": "1d3cacbfec5b693389a8df9ac8adf792e1c77226819f3611cd717361c8082a72"
+            "date": 1769511605170,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-27-17-error.log",
+            "hash": "b051f96ab90ed7dcb1b3d3b470b3a2de4b17b11e5a24783797c25fb12fa6e3e9"
         },
         {
-            "date": 1768046562464,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-10-18-error.log",
-            "hash": "8fe0e8373d5af0a34c37ca95e0c0d195141f7bad608e9b5389226614bd0d5124"
+            "date": 1769516121243,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-27-18-error.log",
+            "hash": "fe87c9f0665cf683d1f37d9b57ffbfe979088d82196b5df19b4f64b10014ba9a"
         },
         {
-            "date": 1768051139771,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-10-19-error.log",
-            "hash": "78393a33294ac8a1b8f9648f6823caee8cd4a2e6f6f279ad64b81d604c74f059"
+            "date": 1769846919893,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-31-14-error.log",
+            "hash": "305f46beaa9fbe3c2b85ab5b663ba2005b872c7cf6a5ef22ce07c53d1e45ed30"
         },
         {
-            "date": 1768053603087,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-10-20-error.log",
-            "hash": "9ec0b515fbf3179864c14c0c9de92627d8b678569887bfb51402363f89295c44"
+            "date": 1769854778819,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-31-16-error.log",
+            "hash": "5765be88face3d9a339a391d6ef2b47fe3ed1b2f3a6a08519fe668c540a013f6"
         },
         {
-            "date": 1768285434841,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-12-error.log",
-            "hash": "3c88ff7aadc0f548d8730bb085117295a8ad5815a31e10d07c27e0ec8369806d"
+            "date": 1769857250767,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-31-17-error.log",
+            "hash": "bb3d41ebcd4a6eaa3b61ba6bfbb56bf1e65e640056073d77bd4b29c69edc9c67"
         },
         {
-            "date": 1768287643915,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-13-error.log",
-            "hash": "549d8db61087f78636b2d002e6837a37d39b3c9d1ddd2a639ad92cbd65b10a88"
+            "date": 1769865823635,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-31-19-error.log",
+            "hash": "850676c8add67f168a502fb7a78fbf3f923fb9a272f641219566d25eadfed64a"
         },
         {
-            "date": 1768293081441,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-14-error.log",
-            "hash": "5ba2045045405e0c5fa35f3d8b197f50b008630423214e288adcfbd16794e21b"
+            "date": 1769871606909,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-31-21-error.log",
+            "hash": "84147566ff54dfa705ecd42f5452bd2ffa8d8bae71d273a91ae46314bd3707b2"
         },
         {
-            "date": 1768297037507,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-15-error.log",
-            "hash": "d0b54fa823bf42bb007a970800b116f0cf3907f3f8330e2b5deef35601779784"
+            "date": 1769950507101,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-01-18-error.log",
+            "hash": "5b006c5de68470ad81cc3d93296b6520aa71814b2124954846b5477c1109751d"
         },
         {
-            "date": 1768298400477,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-16-error.log",
-            "hash": "4ed13fabe557961e4cf444b7b9581d13d4db185e78b62760ad7d6c378888862c"
+            "date": 1769950937517,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-01-19-error.log",
+            "hash": "1a9232906820126c365af289500b11518a07767f50ada5f29580fedd0899ed5b"
         },
         {
-            "date": 1768302015733,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-17-error.log",
-            "hash": "341c3efaf9dba74856a6f86f0eac77f605879b7e2f673b6c97a9d4cd3ad66481"
+            "date": 1769954419523,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-01-20-error.log",
+            "hash": "1d0982aacdceeced65416c8db7da64646bfade7d3a20d22b5241df866997926f"
         },
         {
-            "date": 1768305985015,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-18-error.log",
-            "hash": "a755d59ec6b74792c9e1fdf91efbdfc131aba116fca2f928534d1850d105de73"
+            "date": 1770019038027,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-02-13-error.log",
+            "hash": "a23018e53a722e5b1f2e34f54042dfd97eddbd6caab7c48301458f921c844143"
         },
         {
-            "date": 1768313138217,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-20-error.log",
-            "hash": "4c18ad51e00643799016399418b7ebbda928371e0ce0bd4929085634f1d36b7f"
+            "date": 1770021678548,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-02-14-error.log",
+            "hash": "d4db37171c02a90046f4e10f7dc8cd5c9ad1e887b4edf44a89c866b0f3d9bc0e"
         },
         {
-            "date": 1768316449442,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-13-21-error.log",
-            "hash": "720c3198d6a58e22f75d99ea1b968e9cbca71337a1cc4c0d8bcea04a7de27c1c"
-        },
-        {
-            "date": 1768381488080,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-14-15-error.log",
-            "hash": "465b53809f8b901335b1962c6bf7a50e6102152828a0c02451749b3b59887552"
-        },
-        {
-            "date": 1768541432156,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-16-11-error.log",
-            "hash": "d31d9ed35d1f71ce2dbf0957ecdec62d93579bd7799fbdce302d4026056626a2"
+            "date": 1770023100520,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-02-15-error.log",
+            "hash": "67cfa3b60690f8a1bc208d93575c6cda61c623cb810b6e9044e185d5bf792f32"
         }
     ],
     "hashType": "sha256"
