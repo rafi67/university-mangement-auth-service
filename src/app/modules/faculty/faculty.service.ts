@@ -5,6 +5,8 @@ import { IPaginationOptions } from '../../../interfaces/pagination'
 import { facultySearchableFields } from './faculty.constant'
 import { IFaculty, IFacultyFilters } from './faculty.interface'
 import { Faculty } from './faculty.model'
+import ApiError from '../../../errors/ApiError'
+import httpStatus from 'http-status'
 
 const getAllFaculty = async (
   filters: IFacultyFilters,
@@ -68,7 +70,35 @@ const getSingleFaculty = async (id: string): Promise<IFaculty | null> => {
   return result
 }
 
+const updateFaculty = async (
+  id: string,
+  payload: Partial<IFaculty>,
+): Promise<IFaculty | null> => {
+  const isExists = await Faculty.findOne({ id })
+  if (!isExists) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Faculty not found!')
+  }
+
+  const { name, ...studentData } = payload
+
+  const updatedFacultyData: Partial<IFaculty> = { ...studentData }
+
+  if (name && Object.keys(name).length > 0) {
+    Object.keys(name).forEach(key => {
+      const nameKey = `name.${key}`
+      updatedFacultyData[nameKey] = name[key as keyof typeof name]
+    })
+  }
+
+  const result = await Faculty.findOneAndUpdate({ id }, updatedFacultyData, {
+    new: true,
+  })
+
+  return result
+}
+
 export const FacultyService = {
   getAllFaculty,
   getSingleFaculty,
+  updateFaculty,
 }
