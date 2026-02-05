@@ -1,0 +1,23 @@
+import { Schema } from 'mongoose'
+import {
+  IManagementDepartment,
+  ManagementDepartmentModel,
+} from './managementDepartment.interface'
+
+export const managementDepartmentSchema = new Schema<
+  IManagementDepartment,
+  ManagementDepartmentModel
+>(
+  {
+    title: {
+      type: String,
+      required: true,
+    },
+  },
+  {
+    timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
+  },
+)
