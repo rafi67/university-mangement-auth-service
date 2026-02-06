@@ -104,8 +104,21 @@ const getSingleManagementDepartment = async (
   return result
 }
 
+const updateManagementDepartment = async (
+  id: string,
+  payload: IManagementDepartment,
+): Promise<IManagementDepartment> => {
+  const result = await ManagementDepartment.findOneAndUpdate(
+    { _id: id },
+    payload,
+    { new: true },
+  )
+  return result
+}
+
 export const ManagementDepartmentService = {
   createManagementDepartment,
   getAllManagementDepartment,
   getSingleManagementDepartment,
+  updateManagementDepartment,
 }
