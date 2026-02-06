@@ -1,4 +1,4 @@
-import { Schema } from 'mongoose'
+import { model, Schema } from 'mongoose'
 import {
   IManagementDepartment,
   ManagementDepartmentModel,
@@ -21,3 +21,8 @@ export const managementDepartmentSchema = new Schema<
     },
   },
 )
+
+export const ManagementDepartment = model<
+  IManagementDepartment,
+  ManagementDepartmentModel
+>('ManagementDepartment', managementDepartmentSchema)
