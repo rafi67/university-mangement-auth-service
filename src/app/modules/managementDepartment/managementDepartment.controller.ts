@@ -44,7 +44,24 @@ const getAllManagementDepartment: RequestHandler = catchAsync(
   },
 )
 
+const getSingleManagementDepartment: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const id = req.params.id
+
+    const result =
+      await ManagementDepartmentService.getSingleManagementDepartment(id)
+
+    sendResponse<IManagementDepartment>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Management department retrieved successfully',
+      data: result,
+    })
+  },
+)
+
 export const ManagementDepartmentController = {
   createManagementDepartment,
   getAllManagementDepartment,
+  getSingleManagementDepartment,
 }

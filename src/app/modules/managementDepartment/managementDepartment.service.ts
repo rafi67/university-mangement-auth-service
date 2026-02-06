@@ -97,7 +97,15 @@ const getAllManagementDepartment = async (
   }
 }
 
+const getSingleManagementDepartment = async (
+  id: string,
+): Promise<IManagementDepartment | null> => {
+  const result = await ManagementDepartment.findOne({ _id: id })
+  return result
+}
+
 export const ManagementDepartmentService = {
   createManagementDepartment,
   getAllManagementDepartment,
+  getSingleManagementDepartment,
 }
