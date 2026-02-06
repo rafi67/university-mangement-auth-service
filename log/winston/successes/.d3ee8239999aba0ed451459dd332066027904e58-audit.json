@@ -6,16 +6,6 @@
     "auditLog": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\successes\\.d3ee8239999aba0ed451459dd332066027904e58-audit.json",
     "files": [
         {
-            "date": 1769175371115,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\successes\\university-2026-01-23-19-success.log",
-            "hash": "ec87bd67ba3c4fc54308f7ac1a295e478a45a0584f3c28824a7f2fa701d06c8d"
-        },
-        {
-            "date": 1769178841074,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\successes\\university-2026-01-23-20-success.log",
-            "hash": "07c085ececaf35fca68d6905715854989639c517434ecb33a5232d2b219f7d7d"
-        },
-        {
             "date": 1769243209326,
             "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\successes\\university-2026-01-24-14-success.log",
             "hash": "d2031d89d50980be315ecb7df8e207f11623ac75fd028ddb2d1544c7efc3f4b5"
@@ -279,6 +269,16 @@
             "date": 1770384756623,
             "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\successes\\university-2026-02-06-19-success.log",
             "hash": "dbe09854d2b4fbb0dd3e9410add46dccc93a4021b4c5ca43796073a0d30bea3b"
+        },
+        {
+            "date": 1770387840214,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\successes\\university-2026-02-06-20-success.log",
+            "hash": "454963151a95221256486dc2a46d441329a8b7174d0facc848294ca00e7ce247"
+        },
+        {
+            "date": 1770390097280,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\successes\\university-2026-02-06-21-success.log",
+            "hash": "3f65968e320107589a6a10f59c82ca775904c25c477fa9e7dffff3286d568f97"
         }
     ],
     "hashType": "sha256"

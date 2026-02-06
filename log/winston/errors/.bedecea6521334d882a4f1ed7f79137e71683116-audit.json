@@ -6,16 +6,6 @@
     "auditLog": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\.bedecea6521334d882a4f1ed7f79137e71683116-audit.json",
     "files": [
         {
-            "date": 1769175371125,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-23-19-error.log",
-            "hash": "7711508329e35e8a0dac635eca91bd8701741f4ac3fc2a52a1c2ea6fa97410ed"
-        },
-        {
-            "date": 1769178841086,
-            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-23-20-error.log",
-            "hash": "aabef3f49bb0e303034c096609db106c5ec07e254441d7c55450cf0657fd641f"
-        },
-        {
             "date": 1769243209342,
             "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-01-24-14-error.log",
             "hash": "e3b7145e31716f42481a3fd06b2bd9338974abe21133e42f928c05823a3ba323"
@@ -279,6 +269,16 @@
             "date": 1770384756627,
             "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-06-19-error.log",
             "hash": "78d58b2b7b31e6aa4baadad2a613ed77e957caab08c4c24547d896f9d78ee1e4"
+        },
+        {
+            "date": 1770387840220,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-06-20-error.log",
+            "hash": "1e9512121a8af28df100afdc61f2ef22cd49bbcea3e37f08558ac7a763e431f9"
+        },
+        {
+            "date": 1770390097284,
+            "name": "C:\\Users\\hp\\Desktop\\hp laptop\\Programming Hero\\Level-2\\University-Management-Auth-Service\\log\\winston\\errors\\university-2026-02-06-21-error.log",
+            "hash": "46b4fe3cb9f546ec116be9b815ae734db57d46ee96417af3a4054c6a349123d3"
         }
     ],
     "hashType": "sha256"

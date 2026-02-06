@@ -156,7 +156,7 @@ const createAdmin = async (
 
   try {
     session.startTransaction()
-    const id = generateAdminId()
+    const id = await generateAdminId()
     user.id = id
     admin.id = id
 
@@ -182,6 +182,17 @@ const createAdmin = async (
     await session.abortTransaction()
     await session.endSession()
     throw err
+  }
+
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'admin',
+      populate: [
+        {
+          path: 'managementDepartment',
+        },
+      ],
+    })
   }
 
   return newUserAllData

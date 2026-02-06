@@ -61,6 +61,7 @@ export const adminSchema = new Schema<IAdmin, AdminModel>(
     },
     managementDepartment: {
       type: String,
+      ref: 'ManagementDepartment',
       required: true,
     },
     designation: {
