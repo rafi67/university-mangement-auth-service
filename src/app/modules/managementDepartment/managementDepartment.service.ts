@@ -1,8 +1,15 @@
-import mongoose from 'mongoose'
-import { IManagementDepartment } from './managementDepartment.interface'
+import mongoose, { SortOrder } from 'mongoose'
+import {
+  IManagementDepartment,
+  IManagementDepartmentFilters,
+} from './managementDepartment.interface'
 import { ManagementDepartment } from './managementDepartment.model'
 import ApiError from '../../../errors/ApiError'
 import httpStatus from 'http-status'
+import { IPaginationOptions } from '../../../interfaces/pagination'
+import { IGenericResponse } from '../../../interfaces/common'
+import { managementDepartmentSearchableFields } from './managementDepartment.constant'
+import { paginationHelpers } from '../../../helpers/paginationHelper'
 
 const createManagementDepartment = async (
   data: IManagementDepartment,
@@ -34,6 +41,63 @@ const createManagementDepartment = async (
   return newManagementDepartmentAllData
 }
 
+const getAllManagementDepartment = async (
+  filters: IManagementDepartmentFilters,
+  paginationOptions: IPaginationOptions,
+): Promise<IGenericResponse<IManagementDepartment[]>> => {
+  const { searchTerm, ...filtersData } = filters
+
+  const andConditions = []
+
+  if (searchTerm) {
+    andConditions.push({
+      $or: managementDepartmentSearchableFields.map(field => ({
+        [field]: {
+          $regex: searchTerm,
+          $options: 'i',
+        },
+      })),
+    })
+  }
+
+  if (Object.keys(filtersData).length) {
+    andConditions.push({
+      $and: Object.entries(filtersData).map(([field, value]) => ({
+        [field]: value,
+      })),
+    })
+  }
+
+  const { skip, limit, page, sortBy, sortOrder } =
+    paginationHelpers.calculatePagination(paginationOptions)
+
+  const sortConditions: { [key: string]: SortOrder } = {}
+
+  if (sortBy && sortOrder) {
+    sortConditions[sortBy] = sortOrder
+  }
+
+  const whereConditions =
+    andConditions.length > 0 ? { $and: andConditions } : {}
+
+  const result = await ManagementDepartment.find(whereConditions)
+    .sort(sortConditions)
+    .skip(skip)
+    .limit(limit)
+
+  const total = await ManagementDepartment.countDocuments()
+
+  return {
+    meta: {
+      page,
+      limit,
+      total,
+    },
+    data: result,
+  }
+}
+
 export const ManagementDepartmentService = {
   createManagementDepartment,
+  getAllManagementDepartment,
 }
