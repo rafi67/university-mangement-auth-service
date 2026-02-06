@@ -66,7 +66,18 @@ const getSingleAdmin = async (id: string): Promise<IAdmin | null> => {
   return result
 }
 
+const updateAdmin = async (
+  id: string,
+  payload: Partial<IAdmin>,
+): Promise<IAdmin> => {
+  const result = await Admin.findOneAndUpdate({ id: id }, payload, {
+    new: true,
+  })
+  return result
+}
+
 export const AdminService = {
   getAllAdmins,
   getSingleAdmin,
+  updateAdmin,
 }
