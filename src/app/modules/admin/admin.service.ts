@@ -61,6 +61,12 @@ const getAllAdmins = async (
   }
 }
 
+const getSingleAdmin = async (id: string): Promise<IAdmin | null> => {
+  const result = await Admin.findOne({ id })
+  return result
+}
+
 export const AdminService = {
   getAllAdmins,
+  getSingleAdmin,
 }
