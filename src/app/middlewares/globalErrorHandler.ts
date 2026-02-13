@@ -1,7 +1,10 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unused-expressions */
 /* eslint-disable no-console */
-import { ErrorRequestHandler, Request, Response } from 'express'
+import { ErrorRequestHandler, Request, Response, NextFunction } from 'express'
 import config from '../../config'
 import { IGenericErrorMessage } from '../../interfaces/error'
 import handleValidationError from '../../errors/handleValidationError'
@@ -12,9 +15,10 @@ import handleZodError from '../../errors/handleZodError'
 import handleCastError from '../../errors/handleCastError'
 
 const globalErrorHandler: ErrorRequestHandler = (
-  error,
   req: Request,
   res: Response,
+  next: NextFunction,
+  error,
 ) => {
   config.env === 'development'
     ? console.log('globalErrorHandler', error)
