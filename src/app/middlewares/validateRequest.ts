@@ -1,4 +1,3 @@
-import { UserService } from '../modules/user/user.service'
 import { ZodObject } from 'zod'
 import { Request, Response, NextFunction } from 'express'
 
@@ -12,12 +11,10 @@ const validateRequest =
         params: req.params,
         cookies: req.cookies,
       })
-      return next()
+      next()
     } catch (err) {
       next(err)
     }
-    const result = await UserService.createUser(res.body)
-    res.send(result)
   }
 
 export default validateRequest
