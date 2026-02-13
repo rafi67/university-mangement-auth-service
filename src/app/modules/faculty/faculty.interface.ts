@@ -25,4 +25,16 @@ export type IFaculty = {
   profileImage?: string
 }
 
+export type IFacultyFilters = {
+  searchTerm?: string
+  id?: string
+  bloodGroup?: string
+  email?: string
+  contactNo?: string
+  emergencyContactNo?: string
+  designation?: string
+  academicDepartment?: string
+  academicFaculty?: string
+}
+
 export type FacultyModel = Model<IFaculty, Record<string, unknown>>
