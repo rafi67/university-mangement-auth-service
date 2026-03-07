@@ -14,13 +14,10 @@ const http_status_1 = __importDefault(require("http-status"));
 const student_model_1 = require("../student/student.model");
 const faculty_model_1 = require("../faculty/faculty.model");
 const admin_model_1 = require("../admin/admin.model");
-const bcrypt_1 = __importDefault(require("bcrypt"));
 const createStudent = async (student, user) => {
     if (!user.password) {
         user.password = index_1.default.default_student_pass;
     }
-    // hash password
-    user.password = await bcrypt_1.default.hash(user.password, Number(index_1.default.bcrypt_salt_rounds));
     user.role = 'student';
     const academicSemester = await academicSemester_model_1.AcademicSemester.findById(student.academicSemester);
     let newUserAllData = null;
@@ -70,8 +67,6 @@ const createFaculty = async (faculty, user) => {
     if (!user.password) {
         user.password = index_1.default.default_faculty_pass;
     }
-    // hash password
-    user.password = await bcrypt_1.default.hash(user.password, Number(index_1.default.bcrypt_salt_rounds));
     user.role = 'faculty';
     let newUserAllData = null;
     const session = await mongoose_1.default.startSession();
@@ -117,8 +112,6 @@ const createAdmin = async (admin, user) => {
     if (!user.password) {
         user.password = index_1.default.default_admin_pass;
     }
-    // hash password
-    user.password = await bcrypt_1.default.hash(user.password, Number(index_1.default.bcrypt_salt_rounds));
     user.role = 'admin';
     let newUserAllData = null;
     const session = await mongoose_1.default.startSession();
