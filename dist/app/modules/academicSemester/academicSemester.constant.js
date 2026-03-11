@@ -1,38 +1,42 @@
-'use strict'
-Object.defineProperty(exports, '__esModule', { value: true })
-exports.academicSemesterFilterableFields =
-  exports.academicSemesterSearchableFields =
-  exports.academicSemesterTitleCodeMapper =
-  exports.academicSemesterMonths =
-  exports.academicSemesterCodes =
-  exports.academicSemesterTitles =
-    void 0
-exports.academicSemesterTitles = ['Autumn', 'Summer', 'Fall', 'Winter']
-exports.academicSemesterCodes = ['01', '02', '03', '04']
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.academicSemesterFilterableFields = exports.academicSemesterSearchableFields = exports.academicSemesterTitleCodeMapper = exports.academicSemesterMonths = exports.academicSemesterCodes = exports.academicSemesterTitles = void 0;
+exports.academicSemesterTitles = [
+    'Autumn',
+    'Summer',
+    'Fall',
+    'Winter',
+];
+exports.academicSemesterCodes = [
+    '01',
+    '02',
+    '03',
+    '04',
+];
 exports.academicSemesterMonths = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-]
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+];
 exports.academicSemesterTitleCodeMapper = {
-  Autumn: '01',
-  Summer: '02',
-  Winter: '03',
-  Fall: '04',
-}
-exports.academicSemesterSearchableFields = ['title', 'code', 'year']
+    Autumn: '01',
+    Summer: '02',
+    Winter: '03',
+    Fall: '04',
+};
+exports.academicSemesterSearchableFields = ['title', 'code', 'year'];
 exports.academicSemesterFilterableFields = [
-  'searchTerm',
-  'title',
-  'code',
-  'year',
-]
+    'searchTerm',
+    'title',
+    'code',
+    'year',
+];
