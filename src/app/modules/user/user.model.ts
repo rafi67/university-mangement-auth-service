@@ -2,9 +2,8 @@ import { Schema, model } from 'mongoose'
 import { IUser, UserModel } from './user.interface'
 import bcrypt from 'bcrypt'
 import config from '../../../config'
-import { NextFunction } from 'express'
 
-const userSchema = new Schema<IUser>(
+const userSchema = new Schema<IUser, UserModel>(
   {
     id: {
       type: String,
@@ -18,6 +17,11 @@ const userSchema = new Schema<IUser>(
     password: {
       type: String,
       required: true,
+      select: 0,
+    },
+    needsPasswordChange: {
+      type: Boolean,
+      default: true,
     },
     student: {
       type: Schema.Types.ObjectId,
@@ -40,14 +44,49 @@ const userSchema = new Schema<IUser>(
   },
 )
 
-userSchema.pre('save', async function (next: NextFunction) {
+userSchema.statics.isUserExists = async function (
+  id: string,
+): Promise<Pick<
+  IUser,
+  'id' | 'password' | 'role' | 'needsPasswordChange'
+> | null> {
+  return await User.findOne(
+    { id },
+    { id: 1, password: 1, role: 1, needsPasswordChange: 1 },
+  )
+}
+
+userSchema.statics.isPasswordMatched = async function (
+  givenPassword: string,
+  savedPassword: string,
+): Promise<boolean> {
+  return await bcrypt.compare(givenPassword, savedPassword)
+}
+
+userSchema.pre('save', async function () {
   // eslint-disable-next-line @typescript-eslint/no-this-alias
   const user = this
+
   user.password = await bcrypt.hash(
     user.password,
     Number(config.bcrypt_salt_rounds),
   )
-  next()
 })
 
 export const User = model<IUser, UserModel>('User', userSchema)
+
+// userSchema.methods.isUserExists = async function (
+//   id: string,
+// ): Promise<Partial<IUser> | null> {
+//   return await User.findOne(
+//     { id },
+//     { id: 1, password: 1, needsPasswordChange: 1 },
+//   )
+// }
+
+// userSchema.methods.isPasswordMatched = async function (
+//   givenPassword: string,
+//   savedPassword: string,
+// ): Promise<boolean> {
+//   return await bcrypt.compare(givenPassword, savedPassword)
+// }
