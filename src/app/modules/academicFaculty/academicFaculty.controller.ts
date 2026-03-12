@@ -35,8 +35,8 @@ const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
 })
 
 const updateFaculty = catchAsync(async (req: Request, res: Response) => {
-  const id = req.params.id
-  const updatedData = req.body
+  const id = req.params.id as string
+  const updatedData = req.body as string
   const result = await AcademicFacultyService.updateFaculty(id, updatedData)
 
   sendResponse(res, {
@@ -48,7 +48,7 @@ const updateFaculty = catchAsync(async (req: Request, res: Response) => {
 })
 
 const deleteFaculty = catchAsync(async (req: Request, res: Response) => {
-  const id = req.params.id
+  const id = req.params.id as string
   const result = await AcademicFacultyService.deleteFaculty(id)
 
   sendResponse(res, {
